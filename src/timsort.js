@@ -208,7 +208,7 @@ function binaryInsertionSort(array, lo, hi, start, compare) {
      *   pivot <  array[i] for i in  in [right, start)
      */
     while (left < right) {
-      let mid = (left + right) >>> 1;
+      let mid = left + ((right - left) >>> 1);
 
       if (compare(pivot, array[mid]) < 0) {
         right = mid;
