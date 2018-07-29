@@ -31,7 +31,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mziccard/node-timsort.git"
+    "url": "https://github.com/Mega-Mewthree/node-timsort.git"
   },
   "keywords": [
     "sort",
@@ -43,6 +43,6 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mziccard/node-timsort/issues"
+    "url": "https://github.com/Mega-Mewthree/node-timsort/issues"
   }
 }
