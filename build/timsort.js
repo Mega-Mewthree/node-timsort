@@ -188,7 +188,7 @@
       var right = start;
 
       while (left < right) {
-        var mid = left + right >>> 1;
+        var mid = left + ((right - left) >>> 1);
 
         if (compare(pivot, array[mid]) < 0) {
           right = mid;
